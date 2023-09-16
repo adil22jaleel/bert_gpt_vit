@@ -1,8 +1,8 @@
 import torch
-from model import *
-from train import *
-from utils import *
-from config import *
+from .model import *
+from .train import *
+from .utils import *
+from .config import *
 
 def transformers_combined(name, iterations=10):
     if name == "BERT":

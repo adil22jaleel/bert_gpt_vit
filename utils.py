@@ -8,7 +8,7 @@ import os
 from collections import Counter
 from os.path import exists
 import re
-from config import *
+from .config import *
 
 
 ################################################## DATASET FOR BERT ############################################################################
